@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+
+:root{
+--main-color:#2e2f42;
+--main-bgr-color: #2E2F42;
+--text-white-color: #FFFFFF;
+--button-white-color:  #FFFFFF;
+--button-blue-color:  #4D5AE5;
+--bg-color: #F4F4FD;
+--background-button-color:#404BBF; 
+--footer-text-color: #E7E9FC;
+
+
+}
+body {
+  color:var(--main-color);
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+}
+
+/* logo */
+.logo .header-web{
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--button-blue-color);
+}
+
+.logo .header-studio {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--main-color)
+}
+/* nav */
+.nav-list .link {
+    font-size: 16px;
+ line-height: 1.5;
+ }
+.link:hover,
+.link:focus
+{color:var(--background-button-color);
+}
+/* auth list */
+.list .auth-link{
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+.auth-link:hover,
+.auth-link:focus
+{color:var(--background-button-color)
+}
+/* section1  */
+.slogan{
+  background: var(--main-bgr-color);
+}
+/* text of slogan */
+.slogan .slogan-text{
+  font-size: 56px;
+  line-height: 1.071;
+  color: var(--text-white-color);
+}
+/* button for slogan (primery button)*/
+.button.primary{
+ cursor: pointer;
+font-size: 16px;
+line-height: 1.5;
+color:var(--button-white-color);
+background: #4D5AE5;
+}
+/* for button portfolio */
+.button .button-link{
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: #4D5AE5;
+background: #F4F4FD;
+}
+.button-link:hover,
+.button-link:focus{
+ background: #404BBF; 
+ color:#FFFFFF
+}
+/* section2 (second) for text */
+.section-text .subtitle{
+font-size: 20px;
+line-height: 1.2;
+}
+.section-text .text{
+font-size: 16px;
+line-height: 1.5;
+color:#434455;
+}
+/* section3 (third), only pictures */
+.section .title{
+font-size: 36px;
+line-height: 1.11;
+}
+  /* for footer */
+.footer{
+background:var(--main-bgr-color);
+}
+.footer .text-footer{
+  font-size: 16px;
+  line-height: 1.5;
+  color:var(--footer-text-color);
+}
+.footer .footer-web{
+ font-family: 'Raleway';
+font-size: 18px;
+line-height: 1.33;
+color: #4D5AE5;
+}
+.footer .footer-studio{
+font-family: 'Raleway';
+font-size: 18px;
+line-height: 1.33;
+color: #F4F4FD;
+}
+
+
